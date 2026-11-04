@@ -24,7 +24,7 @@ The server only reads data. There is no tool that writes to the database or runs
 
 ## Requirements
 
-- Ubuntu with Docker
+- Ubuntu with Docker, python, npm
 - The FastAPI and MySQL API running on port 8000, listening on `0.0.0.0`
 - `cloudflared` for the public HTTPS link
 - A Claude account (the free plan allows one custom connector)
